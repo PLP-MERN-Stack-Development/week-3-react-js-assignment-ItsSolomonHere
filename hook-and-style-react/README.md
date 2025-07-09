@@ -1,73 +1,78 @@
-# Welcome to your Lovable project
+# 📝 Task Manager App
 
-## Project info
+A responsive React + Tailwind CSS application built using Vite and **pnpm**. This app demonstrates reusable components, state management, API integration, and theme switching with a clean, modern design.
 
-**URL**: https://lovable.dev/projects/a07273d9-23de-4098-b15a-f5743205c90d
+🔗 **Live Demo**: [https://hook-and-style-react.vercel.app](https://hook-and-style-react.vercel.app)
 
-## How can I edit this code?
+---
 
-There are several ways of editing your application.
+## 🚀 Features
 
-**Use Lovable**
+- ✅ Add, complete, delete, and filter tasks
+- 💾 Persistent storage with `localStorage` via a custom hook
+- 🌐 API integration using JSONPlaceholder
+- 🌙 Light/Dark mode toggle with React Context and Tailwind CSS
+- 📦 Modular folder structure and reusable components
+- 📱 Fully responsive design
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/a07273d9-23de-4098-b15a-f5743205c90d) and start prompting.
+---
 
-Changes made via Lovable will be committed automatically to this repo.
+## 🧱 Folder Structure
 
-**Use your preferred IDE**
+src/
+├── components/ # Navbar, Footer, Button, etc.
+├── pages/ # Home, Tasks, APIData
+├── hooks/ # useLocalStorage
+├── context/ # ThemeContext
+├── api/ # API utilities (optional)
+├── utils/ # Utility helpers (optional)
+├── App.jsx # App routes and layout
+├── main.jsx # Entry point
+└── index.css # Tailwind CSS imports
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+---
 
-Follow these steps:
+## ⚙️ Setup Instructions (using pnpm)
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+### 1. Clone the Repository
+```bash
+git clone https://github.com/your-username/task-manager-app.git
+cd task-manager-app
+2. Install Dependencies
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+pnpm install
+3. Run the Development Server
 
-# Step 3: Install the necessary dependencies.
-npm i
+pnpm dev
+Open your browser at http://localhost:5173
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
-npm run dev
-```
+🛠 Tech Stack
+React
 
-**Edit a file directly in GitHub**
+Vite
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+Tailwind CSS
 
-**Use GitHub Codespaces**
+React Router
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+pnpm
 
-## What technologies are used for this project?
+JSONPlaceholder
 
-This project is built with:
+🔥 Deployment
+This project is deployed on Vercel
+🔗 https://hook-and-style-react.vercel.app
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
+📸 Screenshots
 
-## How can I deploy this project?
+Add screenshots of the UI here (optional)
 
-Simply open [Lovable](https://lovable.dev/projects/a07273d9-23de-4098-b15a-f5743205c90d) and click on Share -> Publish.
+📜 License
+MIT License — free for personal and commercial use.
 
-## Can I connect a custom domain to my Lovable project?
+🙌 Credits
+Built as part of Week 3: React.js, JSX, and Tailwind CSS – Mastering Front-End Development
 
-Yes, you can!
+Thanks to Tailwind CSS and JSONPlaceholder for tools and data
 
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
-
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/tips-tricks/custom-domain#step-by-step-guide)
