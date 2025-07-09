@@ -66,6 +66,13 @@ This project is deployed on Vercel
 
 📸 Screenshots
 
+![Screenshot from 2025-07-09 18-47-55](https://github.com/user-attachments/assets/7490ae04-e4ba-4bcb-9a16-630063aad3ff)
+
+
+![Screenshot from 2025-07-09 18-48-20](https://github.com/user-attachments/assets/2a447711-73b3-4c1c-b531-611b42e4993d)
+
+![Screenshot from 2025-07-09 18-48-39](https://github.com/user-attachments/assets/bf325e30-506a-4cdb-aa6a-c9cc1a923ce3)
+
 Add screenshots of the UI here (optional)
 
 📜 License
